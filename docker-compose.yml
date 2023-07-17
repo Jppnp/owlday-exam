@@ -1,0 +1,11 @@
+version: '3.9'
+name: owlday_exam
+services:
+  server:
+    build: exam-5
+    container_name: exam5
+    ports:
+      - '8765:8765'
+    volumes:
+      - ./exam-5:/usr/src/app
+      - /usr/src/app/node_modules

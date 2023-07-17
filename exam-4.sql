@@ -47,7 +47,7 @@ CREATE TABLE Order (
     productID int,
     orderStatus varchar(255),
     orderDate timestamp NOT NULL,
-    CONSTRAINT order_pk PRIMARY KEY(customerId, productID)
+    CONSTRAINT order_pkgi PRIMARY KEY(customerId, productID)
 );
 -- FK cart_customer
 ALTER TABLE Cart ADD CONSTRAINT cart_customer 

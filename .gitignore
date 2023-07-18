@@ -1,3 +1,6 @@
 /exam-5/node_modules
+/.vscode
+
+postgreSQL Local.session.sql
 
 .DS_Store
